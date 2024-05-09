@@ -30,7 +30,6 @@ import Login from './components/login/login.js'
 function App() {
   return (
     <div>
-      <h1>Micha Aplicação</h1>
       <Login />
     </div>
   )
