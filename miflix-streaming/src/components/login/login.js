@@ -13,7 +13,6 @@ function Login() {
           <h2>Login</h2>
         </div>
         <div>
-          {/* <label htmlFor="username">Usuário:</label> */}
           <input
             type="text"
             id="username"
@@ -22,7 +21,6 @@ function Login() {
           />
         </div>
         <div>
-          {/* <label htmlFor="password">Senha:</label> */}
           <input
             type="password"
             id="password"
