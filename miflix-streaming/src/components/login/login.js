@@ -1,17 +1,34 @@
 import React from 'react'
+import '../../styles/login/login.css'
+import logotipo from '../../image/logotipo.png'
 
 function Login() {
   return (
-    <div>
-      <h2>Login</h2>
-      <form>
+    <div className="login-container">
+      <div className="logotipo">
+        <img src={logotipo} alt="Logotipo da Empresa" />
+      </div>
+      <form className="login-form">
         <div>
-          <label htmlFor="username">Usuário:</label>
-          <input type="text" id="username" name="username" />
+          <h2>Login</h2>
         </div>
         <div>
-          <label htmlFor="password">Senha:</label>
-          <input type="password" id="password" name="password" />
+          {/* <label htmlFor="username">Usuário:</label> */}
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Usuário"
+          />
+        </div>
+        <div>
+          {/* <label htmlFor="password">Senha:</label> */}
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Senha"
+          />
         </div>
         <div>
           <button type="submit">Entrar</button>
